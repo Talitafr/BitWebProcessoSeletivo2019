@@ -4,7 +4,7 @@ table,th,td{
 .myfigure{
     border: 5px solid black;
     position: relative;
-    top: -20px;
-    left: 20px;
+    top: -5vh;
+    left: 6.25vw;
     display: inline-block;
 }
