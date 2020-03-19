@@ -1,9 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     M.AutoInit()
   });
-  document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
+    var instances = M.Sidenav.init(elems, {
+      edge: 'left'
+    });
   });
 
   // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
@@ -12,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Or with jQuery
 
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+        

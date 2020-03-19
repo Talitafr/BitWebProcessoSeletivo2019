@@ -13,14 +13,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="projeto.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <section class="col s12 m12 l12" id="head">
       <nav class="indigo darken-4">
+          
         <div class="nav-wrapper container">
           <a href="startrek.html" class="brand-logo">
             <img src="logo.jpg" class="logo" alt="logo">
           </a>
+          <ul id="slide-out" class=" sidenav">
+            <li><a href="https://pt.wikipedia.org/wiki/Star_Trek">História</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">Personagens</a></li>
+            <li><a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/">Curiosidades</a></li>
+            <li><a href="https://www.trekbrasilis.org/guia-de-episodios/">Episódios</a></li>
+          </ul>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="https://pt.wikipedia.org/wiki/Star_Trek">História</a></li>
             <li><a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">Personagens</a></li>
@@ -28,11 +37,13 @@
             <li><a href="https://www.trekbrasilis.org/guia-de-episodios/">Episódios</a></li>
           </ul>
         </div>
+
+  
       </nav>
     </section>
       <section class="corposite">
         <div class="card-panel blue lighten-2" id="first">
-              <h1 class="principal">Star Trek</h1>
+              <h2 class="principal">Star Trek</h2>
               <p id="firstp">Para saber mais sobre essa franquia aperte o botão abaixo</p>
               <a href="https://pt.wikipedia.org/wiki/Star_Trek" id="CTA" class="waves-effect waves-light btn-large indigo darken-4 ">História
               </a>
@@ -43,7 +54,6 @@
             <div class=" container card-panel" id="second">
                 <h2 style="margin-top: 0px; margin-bottom: 0px;">Mais alternativas</h2>
                 </p>
-                <br>
                 <a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Personagens</a>
                 <a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Curiosidades</a>
                 <a href="https://www.trekbrasilis.org/guia-de-episodios/" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Episódios</a>
@@ -57,7 +67,7 @@
                   <tbody>  
                     <tr>
                           <td>
-                              <div class="pictureuno">
+                              <div class="pictureuno col s12">
                                   <h6>Personagens</h6>
                                   <a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">link</a>
                               </div>
@@ -95,38 +105,37 @@
                 </form>
               </section>
               <section id="foot">
-                <footer class="page-footer">
+                <footer class="page-footer indigo darken-4">
                   <div class="container">
-                    <div class="row">
-                      <div class="col l4 offset-l2 s12">
 
-                          <table>    
-                            <tr>
-                              <td><h5>Mapa do site</h5>
+                          <table>
+                            <tbody class="pe">    
+                                <tr>
+                                  <td class="fooot1"><h5>Mapa do site</h5>
 
-                                  <ul>
-                                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                                  </ul>
-                              </td>
-                              <td><h5>Address</h5>
-                                <p>Avenida das Américas n° 1555 - Barra da Tijuca</p>
+                                      <ul>
+                                        <li><a class="grey-text text-lighten-3" href="https://pt.wikipedia.org/wiki/Star_Trek">História</a></li>
+                                        <li><a class="grey-text text-lighten-3" href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">Personagens</a></li>
+                                        <li><a class="grey-text text-lighten-3" href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/">Curiosidades</a></li>
+                                        <li><a class="grey-text text-lighten-3" href="https://www.trekbrasilis.org/guia-de-episodios/">Episódios</a></li>
+                                      </ul>
+                                  </td>
+                                  <td class="fooot2"><h5>Fan-club Address</h5>
+                                    <p>Avenida das Américas n° 1555 - Barra da Tijuca, Rio de Janeiro, Brasil</p>
 
-                              </td>
-                              <td><h5>Redes sociais</h5>
-                                <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-whatsapp" id="simbols"></i></a></li>
-                                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-
-                              </td>
-                            </tr>
-                            </table>
-                      </div>
-                    </div>
-                  </div>
+                                  </td>
+                                  <td class=fooot3><h5>Redes sociais</h5>
+                                    <ul class="colecao">
+                                      <li class="icones"><a class="grey-text text-lighten-3" href="https://web.whatsapp.com/"><i class="fab fa-whatsapp small" id="simbols"></i></a></li>
+                                        <li class="icones"><a class="grey-text text-lighten-3" href="https://www.facebook.com/"><i class="fab fa-facebook-square small"></i></a></li>
+                                        <li class="icones"><a class="grey-text text-lighten-3" href="https://twitter.com/"><i class="fab fa-twitter-square small"></i></a></li>
+                                        <li class="icones"><a class="grey-text text-lighten-3" href="https://www.instagram.com/?hl=pt-br"><i class="fab fa-instagram small"></i></a></li>
+                                      </ul>
+                                  </td>
+                                </tr>
+                                </table>
+                              </tbody>       
+                        </div>
                 </footer>
 
               </section>
